@@ -515,6 +515,8 @@ input[type="submit"]:hover{
   }
 
   @media screen and (max-width: 320px){
+
+    
     .menu-toggler{
       top: 2rem;
       right: 2rem;
@@ -532,7 +534,7 @@ input[type="submit"]:hover{
       font-size: 3.5rem;
     }
 
-    .about .container{
+    .about-container{
       flex-direction: column;
     }
 
