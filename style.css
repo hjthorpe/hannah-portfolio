@@ -18,7 +18,7 @@ body{
 }
 
 section{
-  padding: 6rem;
+  padding: 6rem 0;
 }
 
 a{
@@ -99,7 +99,7 @@ header{
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: #E3BAC6;
+  background-color: #FDE8E9;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -125,7 +125,7 @@ li{
 }
 .nav-link:hover,
 .nav-link:focus{
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, #E3BAC6, #596475);
   -webkit-background-clip: text; 
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -155,7 +155,7 @@ li{
 }
 
 .bar{
-  background: linear-gradient(to right, #ffe838, #fd57bf);
+  background: linear-gradient(to right, #E3BAC6, #596475);
   width: 100%;
   height: 4px;
   border-radius: .8rem;
@@ -195,7 +195,7 @@ li{
 .landing-text h1{
   font-size: 20rem;
   font-family: 'Josefin Slab', serif;
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, #E3BAC6, #596475);
   -webkit-background-clip: text; 
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -242,11 +242,26 @@ li{
   text-align: center;
 }
 
+.about-details p{
+  line-height: 1.5em;
+  margin-bottom: 1.5rem;
+}
+
 .social{
   font-size: 5rem;
   margin-top: 1rem;
   margin-bottom: 5rem;
   margin-left: 15rem;
+}
+
+.social-click{
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
+  font-size: 5rem;
+  color: #596475;
 }
 
 .social i{
@@ -255,10 +270,12 @@ li{
 
 .fa-linkedin:hover{
   color: #0e76a8;
+  cursor: pointer;
 }
 
 .fa-github:hover{
   color: black;
+  cursor: pointer;
 }
 
 .my-skills{
@@ -277,12 +294,17 @@ li{
   align-items: center;
   padding: 2rem;
   
+  
 }
 
 .skill h1{
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 2rem -2px 2rem 0;
+}
+
+.skill p{
+  line-height: 1.5em;
 }
 
 .icon-container{
@@ -294,10 +316,9 @@ li{
   display: flex;
   transform: rotate(45deg);
   font-size: 5rem;
-  
 }
 
-.icon-container i{
+.icon-twist{
   color: BC9EC1;
   margin: auto;
   transform: rotate(-45deg);
@@ -310,6 +331,17 @@ li{
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
+}
+
+
+.links a{
+  font-size: 2rem;
+  color: #BC9EC1;
+  display: block;
+}
+
+.links a:hover{
+  color:#1F2232;
 }
 
 .portfolio-item:last-child{
@@ -350,13 +382,11 @@ li{
   color: #1F2232;
 }
 
-.contact{
-  background-color: #221e3f;
-}
+
 
 form{
   width: 70%;
-  margin 0 auto;
+  margin: 0 auto;
 }
 
 form label{
@@ -368,29 +398,29 @@ select,
 textarea{
   width: 100%;
   padding: 1rem;
-  margin: bottom 5px;
+  margin-bottom: 5px;
   border: none;
-  outline-color: #fd57bf;
+  outline-color: black;
 }
 
 input[type="submit"]{
   width: initial;
-  background-color: #fd57bf;
-  color: #eee;
+  background-color: #E3BAC6;
+  color: #1F2232;
   padding: 1rem 2rem;
   cursor: pointer;
   transition: background-color 650ms;
 }
 
 input[type="submit"]:hover{
-  color: #221e3f;
-  background-color: #ffe838;
+  color: #1F2232;
+  background-color: #BC9EC1;
 }
 
 .copyright{
   width: 100%;
   text-align: center;
-  background-color: #16162d;
+  /* background-color: #16162d; */
   padding: 2rem 0;
   position: relative;
   display: flex;
@@ -406,27 +436,130 @@ input[type="submit"]:hover{
   border-radius: 100%;
   margin: auto;
   animation: pulse 2s infinite;
-  font-size: 2rem;
+  
+
 }
 
-.up i{
-  color: #16162d;
+.icon-center{
   font-size: 2rem;
-  
+  color: #BC9EC1;
+  margin-top: 1.3rem;
 }
 
 .copyright p{
   font-size: 1.4rem;
+  text-align: center;
 }
 
 @keyframes pulse{
   0%{
-    box-shadow: 0 0 0 0 rgba(253,87,191, 0.99);
+    box-shadow: 0 0 0 0 rgba(89,100,117, 0.99);
   }
   70%{
-    box-shadow: 0 0 0 2rem rgba(253,87,191, 0);
+    box-shadow: 0 0 0 2rem rgba(89,100,117, 0);
   }
   100%{
-    box-shadow: 0 0 0 0 rgba(253,87,191, 0);
+    box-shadow: 0 0 0 0 rgba(89,100,117, 0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    background: url("images/portfolio-background2.jpg") no-repeat center fixed;
+    background-size: cover;
+  
+  }
+
+  .landing-text h1{
+    font-size: 15rem;
+  }
+
+  .landing-text h6{
+    font-size: 1.7rem;
+  }
+
+  .nav-list{
+    flex-direction: column;
+  }
+
+  li{
+    margin: 2rem 0;
+  }
+
+  .nav-links{
+    font-size: 4.5rem;
+  }
+
+  .about-heading h1{
+    font-size: 8rem;
+  }
+
+  .section-heading h6{
+    font-size: 3rem;
+  }
+
+  .about-details .nav-list{
+    flex-direction: initial;
+  }
+  .about-details li{
+    margin: 0 2rem;
+  }
+
+  .icon-container{
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .icon-twist{
+    font-size: 4rem;
+  }
+
+  @media screen and (max-width: 320px){
+
+    
+    .menu-toggler{
+      top: 2rem;
+      right: 2rem;
+    }
+
+    .landing-text h1 {
+      font-size: 8rem;
+    }
+
+    .landing-text 6{
+      font-size: 1.4rem;
+    }
+
+    .nav-link{
+      font-size: 3.5rem;
+    }
+
+    .about-container{
+      flex-direction: column;
+    }
+
+    .profile-img{
+      margin: 0 0 7rem 0;
+    }
+
+    .portfolio-item{
+      flex-direction: column;
+    }
+
+    .portfolio-img{
+      margin: 0 0 2rem 0;
+    }
+
+    .portfolio-description{
+      margin: 0;
+    }
+
+    form{
+      width: 100%;
+    }
+
+    .up{
+      right: 2rem;
+    }
   }
 } */
