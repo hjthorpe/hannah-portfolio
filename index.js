@@ -6,6 +6,13 @@ $().ready(function(){
   })
 });
 
+$().ready(function(){
+  $('.top-nav .nav-link').on('click', function(){
+    $('.menu-toggler').removeClass('open');
+    $('.top-nav').removeClass('open');
+  })
+});
+
 $('#linkedin').on('click',function(event){
   window.location="https://www.linkedin.com/in/hannah-thorpe-b0a8531a3/";
 });
