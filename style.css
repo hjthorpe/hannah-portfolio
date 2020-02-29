@@ -294,12 +294,17 @@ li{
   align-items: center;
   padding: 2rem;
   
+  
 }
 
 .skill h1{
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 2rem -2px 2rem 0;
+}
+
+.skill p{
+  line-height: 1.5em;
 }
 
 .icon-container{
@@ -311,10 +316,9 @@ li{
   display: flex;
   transform: rotate(45deg);
   font-size: 5rem;
-  
 }
 
-.icon-container i{
+.icon-twist{
   color: BC9EC1;
   margin: auto;
   transform: rotate(-45deg);
@@ -434,13 +438,14 @@ input[type="submit"]:hover{
   border-radius: 100%;
   margin: auto;
   animation: pulse 2s infinite;
-  font-size: 2rem;
-  color: #BC9EC1;
-  font-size: 2rem;
+  
 
 }
 
-.up i{
+.icon-center{
+  font-size: 2rem;
+  color: #BC9EC1;
+  margin-top: 1.3rem;
 }
 
 .copyright p{
