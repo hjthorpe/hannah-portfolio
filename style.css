@@ -420,7 +420,7 @@ input[type="submit"]:hover{
 .copyright{
   width: 100%;
   text-align: center;
-  /* background-color: #16162d;
+  background-color: #16162d;
   padding: 2rem 0;
   position: relative;
   display: flex;
@@ -562,4 +562,4 @@ input[type="submit"]:hover{
       right: 2rem;
     }
   }
-} */
+} 
