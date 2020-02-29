@@ -14,9 +14,9 @@ $().ready(function(){
 });
 
 $('#linkedin').on('click',function(event){
-  window.location="https://www.linkedin.com/in/hannah-thorpe-b0a8531a3/";
+ window.open("https://www.linkedin.com/in/hannah-thorpe-b0a8531a3/", "_blank");
 });
 
 $('#github').on('click',function(event){
-  window.location="https://github.com/hjthorpe";
+  window.open("https://github.com/hjthorpe", "_blank");
 });

@@ -244,7 +244,7 @@ li{
 }
 
 .about-details p{
-  line-height: 1.5em;
+  line-height: 3rem;
   margin-bottom: 1.5rem;
 }
 
@@ -252,7 +252,7 @@ li{
   font-size: 5rem;
   margin-top: 1rem;
   margin-bottom: 5rem;
-  margin-left: 15rem;
+  
 }
 
 .social-click{
@@ -305,7 +305,7 @@ li{
 }
 
 .skill p{
-  line-height: 1.5em;
+  line-height: 3rem;
 }
 
 .icon-container{
@@ -336,7 +336,7 @@ li{
 
 .links a{
   font-size: 2rem;
-  color: #BC9EC1;
+  color: #1F2232;
   display: block;
 }
 
@@ -357,6 +357,7 @@ li{
 .portfolio-description{
   flex: 1;
   margin: 0;
+  text-align: center;
 }
 
 .portfolio-description h6{
@@ -376,7 +377,7 @@ li{
   display: inline-block;
   margin-top: 2.5rem;
   font-size: 1.5rem;
-  color: #BC9EC1;
+  color: #1F2232;
   transition: color 650ms;
 }
 .portfolio-description .cta:hover{
@@ -427,6 +428,9 @@ input[type="submit"]:hover{
   display: flex;
 }
 
+.copyright p{
+  color: #1F2232;
+}
 .up{
   position: absolute;
   width: 5rem;
@@ -473,7 +477,7 @@ form{
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 380px) {
   body{
     background: url("images/portfolio-background2.jpg") no-repeat center fixed;
     background-size: cover;
@@ -481,13 +485,12 @@ form{
   }
 
   .landing-text h1{
-    font-size: 15rem;
+    font-size: 10rem;
   }
 
   .landing-text h6{
     font-size: 1.7rem;
   }
-
   .nav-list{
     flex-direction: column;
   }
@@ -522,6 +525,11 @@ form{
 
   .icon-twist{
     font-size: 4rem;
+  }
+
+  .portfolio-description{
+    text-align: center;
+    line-height: 3rem;
   }
 
 @media screen and (min-width: 800px){
@@ -559,15 +567,21 @@ form{
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-direction: row;
+      line-height: 3rem;
+      margin-right: 3rem;
+      
     }
 
     .portfolio-img{
       width: 50rem;
+      margin-right: 5rem;
     }
 
     .portfolio-description{
       flex: 1;
       margin: 0;
+      
     }
 
   }
