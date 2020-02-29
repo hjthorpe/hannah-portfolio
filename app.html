@@ -121,7 +121,8 @@
           <h1>Quiz App</h1> 
           <p>
              Minimal HTML was used as this project was heavily based on Javascript and jQuery functionality. 
-             The app was customized with CSS.
+             The app was customized using CSS.  This app allows users to take a short quiz earning points 
+             if they answer correctly up to a maximum of 5 points.
           </p>
           <p>
             <div class="links">
@@ -174,11 +175,15 @@
             <h1>Contact</h1>
             <h6>Let's work together!</h6>
             <div class="social">
+              <button type="button" class="social-click" id="linkedin">
               <i class="fab fa-linkedin"></i>
+            </button>
+            <button type="button" class="social-click" id="github">
               <i class="fab fa-github"></i>
+            </button>
             </div>
           </div>
-          <form action="">
+          <form action="mailto:hthorpe@protonmail.com" method="post" name="contact-form">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Enter Name" required>
             <label for="email">Email</label>

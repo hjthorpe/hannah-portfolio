@@ -99,7 +99,7 @@ header{
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: #E3BAC6;
+  background-color: #FDE8E9;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -125,7 +125,7 @@ li{
 }
 .nav-link:hover,
 .nav-link:focus{
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, #E3BAC6, #596475);
   -webkit-background-clip: text; 
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -155,7 +155,7 @@ li{
 }
 
 .bar{
-  background: linear-gradient(to right, #ffe838, #fd57bf);
+  background: linear-gradient(to right, #E3BAC6, #596475);
   width: 100%;
   height: 4px;
   border-radius: .8rem;
@@ -195,7 +195,7 @@ li{
 .landing-text h1{
   font-size: 20rem;
   font-family: 'Josefin Slab', serif;
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, #E3BAC6, #596475);
   -webkit-background-clip: text; 
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -254,16 +254,28 @@ li{
   /* margin-left: 15rem; */
 }
 
+.social-click{
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
+  font-size: 5rem;
+  color: #596475;
+}
+
 .social i{
   transition: color 650ms;
 }
 
 .fa-linkedin:hover{
   color: #0e76a8;
+  cursor: pointer;
 }
 
 .fa-github:hover{
   color: black;
+  cursor: pointer;
 }
 
 .my-skills{
@@ -425,10 +437,10 @@ input[type="submit"]:hover{
   font-size: 2rem;
   color: #BC9EC1;
   font-size: 2rem;
+
 }
 
 .up i{
-  /* font-size: 2rem; */
 }
 
 .copyright p{
