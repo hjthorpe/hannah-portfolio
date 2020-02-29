@@ -312,6 +312,17 @@ li{
   margin-bottom: 5rem;
 }
 
+
+.links a{
+  font-size: 2rem;
+  color: #BC9EC1;
+  display: block;
+}
+
+.links a:hover{
+  color:#1F2232;
+}
+
 .portfolio-item:last-child{
   margin-bottom: 0;
 }
@@ -351,7 +362,7 @@ li{
 }
 
 .contact{
-  background-color: #221e3f;
+  /* background-color: #221e3f; */
 }
 
 form{
@@ -368,29 +379,29 @@ select,
 textarea{
   width: 100%;
   padding: 1rem;
-  margin: bottom 5px;
+  margin-bottom: 5px;
   border: none;
-  outline-color: #fd57bf;
+  outline-color: black;
 }
 
 input[type="submit"]{
   width: initial;
-  background-color: #fd57bf;
-  color: #eee;
+  background-color: #E3BAC6;
+  color: #1F2232;
   padding: 1rem 2rem;
   cursor: pointer;
   transition: background-color 650ms;
 }
 
 input[type="submit"]:hover{
-  color: #221e3f;
-  background-color: #ffe838;
+  color: #1F2232;
+  background-color: #BC9EC1;
 }
 
 .copyright{
   width: 100%;
   text-align: center;
-  background-color: #16162d;
+  /* background-color: #16162d; */
   padding: 2rem 0;
   position: relative;
   display: flex;
@@ -407,26 +418,27 @@ input[type="submit"]:hover{
   margin: auto;
   animation: pulse 2s infinite;
   font-size: 2rem;
+  color: #BC9EC1;
+  font-size: 2rem;
 }
 
 .up i{
-  color: #16162d;
-  font-size: 2rem;
-  
+  /* font-size: 2rem; */
 }
 
 .copyright p{
   font-size: 1.4rem;
+  text-align: center;
 }
 
 @keyframes pulse{
   0%{
-    box-shadow: 0 0 0 0 rgba(253,87,191, 0.99);
+    box-shadow: 0 0 0 0 rgba(89,100,117, 0.99);
   }
   70%{
-    box-shadow: 0 0 0 2rem rgba(253,87,191, 0);
+    box-shadow: 0 0 0 2rem rgba(89,100,117, 0);
   }
   100%{
-    box-shadow: 0 0 0 0 rgba(253,87,191, 0);
+    box-shadow: 0 0 0 0 rgba(89,100,117, 0);
   }
 }
