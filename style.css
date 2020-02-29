@@ -242,6 +242,11 @@ li{
   text-align: center;
 }
 
+.about-details p{
+  line-height: 1.5em;
+  margin-bottom: 1.5rem;
+}
+
 .social{
   font-size: 5rem;
   margin-top: 1rem;
