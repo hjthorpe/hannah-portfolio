@@ -1,7 +1,7 @@
-'use strict';
-$().ready(function(){
-  $('.menu-toggler').on('click', function(){
-    $(this).toggleClass('open');
-    $('.top-nav').toggleClass('open');
-  })
-});
+// 'use strict';
+// $().ready(function(){
+//   $('.menu-toggler').on('click', function(){
+//     $(this).toggleClass('open');
+//     $('.top-nav').toggleClass('open');
+//   })
+// });

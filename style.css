@@ -1,4 +1,4 @@
-*{
+/* *{
   margin:0;
   padding:0;
   box-sizing: border-box;
@@ -246,7 +246,7 @@ li{
   font-size: 5rem;
   margin-top: 1rem;
   margin-bottom: 5rem;
-  /* margin-left: 15rem; */
+  margin-left: 15rem;
 }
 
 .social i{
@@ -429,4 +429,4 @@ input[type="submit"]:hover{
   100%{
     box-shadow: 0 0 0 0 rgba(253,87,191, 0);
   }
-}
+} */
