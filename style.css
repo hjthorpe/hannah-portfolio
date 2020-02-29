@@ -548,8 +548,13 @@ form{
       font-size: 2rem;
     }
 
+    .nav-list{
+      flex-direction: row;
+    }
+
     .nav-link{
       font-size: 5rem;
+      margin-right: 3rem;
     }
 
     .about .container{
