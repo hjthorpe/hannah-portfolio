@@ -279,6 +279,11 @@ li{
   cursor: pointer;
 }
 
+.fa-envelope:hover{
+  color: #BC9EC1;
+  cursor: pointer;
+}
+
 .my-skills{
   margin-top: 10rem;
   display: grid;
@@ -474,6 +479,8 @@ form{
 
 .up{
   right: 2rem;
+  cursor: pointer;
+  
 }
 
 

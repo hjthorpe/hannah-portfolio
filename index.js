@@ -17,6 +17,7 @@ $('#linkedin').on('click',function(event){
  window.open("https://www.linkedin.com/in/hannah-thorpe-b0a8531a3/", "_blank");
 });
 
-$('#github').on('click',function(event){
-  window.open("https://github.com/hjthorpe", "_blank");
+
+$('.up').on('click',function(event){
+  window.scrollTo({top: 0,behavior: 'smooth'});
 });
